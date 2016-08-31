@@ -1,0 +1,626 @@
+insert into PERSON_CATEGORY values ('PC1','Manager');
+insert into PERSON_CATEGORY values ('PC2','Player');
+insert into PERSON_CATEGORY values ('PC3','Club Chairman');
+insert into PERSON_CATEGORY values ('PC4','Club Secretary');
+insert into PERSON_CATEGORY values ('PC5','Assistant Manager');
+insert into PERSON_CATEGORY values ('PC6','Goalkeeper Coach');
+insert into PERSON_CATEGORY values ('PC7','Club Doctor');
+insert into PERSON_CATEGORY values ('PC8','Common User');
+
+Manager
+insert into PERSON values (null,'Louis', 'Van Gaal','02/04/1960',54,180,160,'Netherland','PC1');
+insert into PERSON values (null,'Jose', 'Mourinho','02/26/1963',52,170,150,'Portugal','PC1');
+insert into PERSON values (null,'Arsene', 'Wenger','02/04/1959',55,182,162,'France','PC1');
+insert into PERSON values (null,'Manel', 'Pellegrini','02/04/1961',53,170,164,'Chile','PC1');
+insert into PERSON values (null,'Luis', 'Enrique','03/04/1965',50,183,163,'Spain','PC1');
+insert into PERSON values (null,'Carlos', 'Ancelloti','04/04/1958',56,183,155,'Italy','PC1');
+insert into PERSON values (null,'Diego', 'Simeone','04/28/1970',44,175,160,'Argentina','PC1');
+insert into PERSON values (null,'Nuni', 'Santo','03/20/1968',45,175,165,'Portugal','PC1');
+Players
+insert into PERSON values (null,'Wayne', 'Rooney','05/20/1985',28,160,145,'England','PC2');
+insert into PERSON values (null,'Juan', 'Matta','05/20/1986',27,162,148,'Spain','PC2');
+insert into PERSON values (null,'Angel', 'Di Maria','05/20/1987',27,164,148,'Argentina','PC2');
+insert into PERSON values (null,'Daley', 'Blind','05/20/1988',26,162,146,'Netherland','PC2');
+insert into PERSON values (null,'David', 'deGea','05/20/1989',25,160,145,'Spain','PC2');
+3
+insert into PERSON values (null,'John', 'Terry','05/20/1980',34,160,145,'England','PC2');
+insert into PERSON values (null,'Eden', 'Hazard','05/20/1988',26,162,148,'Belgium','PC2');
+insert into PERSON values (null,'Oscar', 'Santos','05/21/1989',25,160,1400,'Brazil','PC2');
+insert into PERSON values (null,'Peter', 'Czech','05/20/1986',29,163,150,'Bulgaria','PC2');
+insert into PERSON values (null,'Diego', 'Costa','08/30/1989',25,170,155,'Spain','PC2');
+
+4
+insert into PERSON values (null,'Oliver', 'Girroud','09/25/1989',26,165,142,'France','PC2');
+insert into PERSON values (null,'Mezut', 'Ozil','12/15/1987',27,155,144,'Germany','PC2');
+insert into PERSON values (null,'Dany', 'Welback','01/21/1994',21,165,150,'England','PC2');
+insert into PERSON values (null,'Per', 'Mertasacker','05/20/1988',27,169,155,'Germany','PC2');
+insert into PERSON values (null,'David', 'Ospina','10/30/1988',26,175,155,'Columbia','PC2');
+
+insert into PERSON values (null,'Sergio', 'Aguero','09/10/1989',25,160,140,'Argentina','PC2');
+insert into PERSON values (null,'Edin', 'Dzeko','12/15/1988',26,150,140,'Bosnia','PC2');
+insert into PERSON values (null,'David', 'Silva','01/21/1992',23,160,155,'Spain','PC2');
+insert into PERSON values (null,'Vincent', 'Kompany','05/20/1985',32,174,165,'Belgium','PC2');
+insert into PERSON values (null,'Joe', 'Hart','10/30/1985',29,179,150,'England','PC2');
+
+insert into PERSON values (null,'Lionel', 'Messi','09/10/1989',25,163,143,'Argentina','PC2');
+insert into PERSON values (null,'Luiz', 'Saurez','12/20/1988',26,155,144,'Uruguay','PC2');
+insert into PERSON values (null,'Andres', 'Iniesta','01/21/1987',27,166,158,'Spain','PC2');
+insert into PERSON values (null,'Gerrard', 'Pique','05/22/1986',28,174,165,'Spain','PC2');
+insert into PERSON values (null,'Claudio', 'Bravo','01/30/1985',30,179,150,'Chile','PC2');
+
+insert into PERSON values (null,'Christiano', 'Ronaldo','09/10/1983',30,165,142,'Portugal','PC2');
+insert into PERSON values (null,'Karim', 'Benzema','12/20/1986',28,152,142,'France','PC2');
+insert into PERSON values (null,'Gareth', 'Bale','02/21/1987',27,165,158,'Wales','PC2');
+insert into PERSON values (null,'Sergio', 'Ramos','06/22/1986',28,175,165,'Spain','PC2');
+insert into PERSON values (null,'Isker', 'Casillas','03/30/1985',30,179,150,'Spain','PC2');
+
+
+insert into PERSON values (null,'Fernando', 'Torres','09/10/1987',28,165,142,'Spain','PC2');
+insert into PERSON values (null,'Mario', 'Mandzukic','01/20/1986',27,154,147,'Croatia','PC2');
+insert into PERSON values (null,'Raul', 'Garcia','02/22/1987',27,165,158,'Spain','PC2');
+insert into PERSON values (null,'Joe', 'Miranda','06/22/1986',28,175,165,'Brazil','PC2');
+insert into PERSON values (null,'Jan', 'Oblak','03/25/1985',30,179,150,'Spain','PC2');
+
+
+insert into PERSON values (null,'Alvaro', 'Negroda','09/10/1987',28,168,145,'Spain','PC2');
+insert into PERSON values (null,'Pablo', 'Piatti','01/22/1986',26,159,142,'Croatia','PC2');
+insert into PERSON values (null,'Enzo', 'Perez','03/22/1987',27,169,150,'Argentina','PC2');
+insert into PERSON values (null,'Jose', 'Luis','01/22/1986',28,175,165,'Brazil','PC2');
+insert into PERSON values (null,'Diego', 'Alves','06/25/1985',30,172,152,'Brazil','PC2');
+
+
+
+
+insert into PERSON values (null,'Mark', 'Luiz','06/25/1964',50,172,153,'England','PC3');
+insert into PERSON values (null,'Jack', 'Fernandez','05/25/1963',49,162,152,'India','PC3');
+insert into PERSON values (null,'Merlin', 'Mandro','02/28/1962',48,150,160,'Spain','PC3');
+insert into PERSON values (null,'Roger', 'Mores','06/25/1961',47,179,152,'England','PC3');
+insert into PERSON values (null,'Michael', 'Vaughan','03/25/1959',50,177,151,'Spain','PC3');
+insert into PERSON values (null,'Andrew', 'Flintoff','02/25/1964',50,171,159,'Brazil','PC3');
+insert into PERSON values (null,'Andy', 'Bicheal','09/25/1962',50,170,158,'Portugal','PC3');
+insert into PERSON values (null,'John', 'Trott','06/25/1961',50,175,154,'Spain','PC3');
+
+insert into PERSON values (null,'Glen', 'Maxxwell','02/22/1964',50,172,153,'England','PC4');
+insert into PERSON values (null,'Geroge', 'Baily','07/19/1963',49,162,152,'Australia','PC4');
+insert into PERSON values (null,'Michael', 'Clarke','03/28/1962',48,150,160,'Spain','PC4');
+insert into PERSON values (null,'Mitch', 'Johnson','04/19/1961',47,179,152,'England','PC4');
+insert into PERSON values (null,'Michael', 'Johnson','03/05/1959',50,177,151,'Spain','PC4');
+insert into PERSON values (null,'Steve', 'Smith','02/19/1964',50,171,159,'Brazil','PC4');
+insert into PERSON values (null,'David', 'Warner','09/02/1962',50,170,158,'Portugal','PC4');
+insert into PERSON values (null,'Aoron', 'Finch','06/19/1961',50,175,154,'Spain','PC4');
+
+insert into PERSON values (null,'Chris', 'Gayle','02/12/1964',50,172,153,'England','PC5');
+insert into PERSON values (null,'Darren', 'Sammy','07/23/1963',49,162,152,'Australia','PC5');
+insert into PERSON values (null,'Marlon', 'Samuels','03/01/1962',48,150,160,'Spain','PC5');
+insert into PERSON values (null,'Fiedel', 'Edwards','04/02/1961',47,179,152,'England','PC5');
+insert into PERSON values (null,'Sunil', 'Naraine','03/24/1959',50,177,151,'Spain','PC5');
+insert into PERSON values (null,'Darren', 'Bravo','02/14/1964',50,171,159,'Brazil','PC5');
+insert into PERSON values (null,'Dwayne', 'Smith','09/09/1962',50,170,158,'Portugal','PC5');
+insert into PERSON values (null,'Sulaiman', 'Benn','06/11/1961',50,175,154,'Spain','PC5');
+
+insert into PERSON values (null,'Hashim', 'Amla','02/29/1964',50,172,153,'England','PC6');
+insert into PERSON values (null,'Faf', 'Dupliess','07/10/1963',49,162,152,'Australia','PC6');
+insert into PERSON values (null,'Ab', 'Develiers','03/05/1962',48,150,160,'Spain','PC6');
+insert into PERSON values (null,'Dayle', 'Steyn','04/12/1961',47,179,152,'England','PC6');
+insert into PERSON values (null,'David', 'Miller','03/24/1959',50,177,151,'Spain','PC6');
+insert into PERSON values (null,'Imran', 'Tahir','02/24/1964',50,171,159,'Brazil','PC6');
+insert into PERSON values (null,'Chris', 'Morris','09/19/1962',50,170,158,'Portugal','PC6');
+insert into PERSON values (null,'Marlon', 'Philander','06/21/1961',50,175,154,'Spain','PC6');
+
+insert into PERSON values (null,'Alistar', 'Cook','02/19/1964',50,172,153,'England','PC7');
+insert into PERSON values (null,'Joe', 'Root','07/12/1963',49,162,152,'Australia','PC7');
+insert into PERSON values (null,'Jos', 'Butler','03/25/1962',48,150,160,'Spain','PC7');
+insert into PERSON values (null,'James', 'Anderson','04/17/1961',47,179,152,'England','PC7');
+insert into PERSON values (null,'James', 'Taylor','03/14/1959',50,177,151,'Spain','PC7');
+insert into PERSON values (null,'Ravi', 'Bopara','02/22/1964',50,171,159,'Brazil','PC7');
+insert into PERSON values (null,'Stuart', 'Broad','09/09/1962',50,170,158,'Portugal','PC7');
+insert into PERSON values (null,'Kevin', 'Peterson','06/11/1961',50,175,154,'Spain','PC7');
+
+insert into PERSON values (null,'Andrew', 'Symods','02/19/1994',20,172,153,'England','PC8');
+insert into PERSON values (null,'Adam', 'Gilly','07/12/1993',21,162,152,'Australia','PC8');
+insert into PERSON values (null,'Mathew', 'Hayden','03/25/1992',22,150,160,'Spain','PC8');
+insert into PERSON values (null,'Gary', 'Kirsten','04/17/1991',23,179,152,'England','PC8');
+insert into PERSON values (null,'Mark', 'Richrdson','03/14/1999',16,177,151,'Spain','PC8');
+
+insert into LEAGUE values ('L1','English Premier League');
+insert into LEAGUE values ('L2','Spanish Premier League');
+
+insert into CLUB_DIRECTORY values('EPL1','L1','Manchester United','1960','The Red Devils','Old Trafford');
+insert into CLUB_DIRECTORY values('EPL2','L1','Chelsea','1958','The Blues','Stamford Bridge');
+insert into CLUB_DIRECTORY values('EPL3','L1','Arsenal','1962','Gooners','Emirates Stadium');
+insert into CLUB_DIRECTORY values('EPL4','L1','Manchester City','1970','MANCITY','City of Manchester'); 
+insert into CLUB_DIRECTORY values('LL1','L2','Barcelona','1965','Barca','Camp Nou');
+insert into CLUB_DIRECTORY values('LL2','L2','Real Madrid','1969','RealMad','Santiago Bernabéu');
+insert into CLUB_DIRECTORY values('LL3','L2','Athletico Madrid','1972','Athletico','Vicente Calderón');
+insert into CLUB_DIRECTORY values('LL4','L2','Velencia FC','1971','Valen','Mestalla');	
+
+insert into CLUB_PERSON values ('CP1',49,57,1,65,73,81);
+insert into CLUB_PERSON values ('CP2',50,58,2,66,74,82);
+insert into CLUB_PERSON values ('CP3',51,59,3,67,75,83);
+insert into CLUB_PERSON values ('CP4',52,60,4,68,76,84);
+insert into CLUB_PERSON values ('CP5',53,61,5,69,77,85);
+insert into CLUB_PERSON values ('CP6',54,62,6,70,78,86);
+insert into CLUB_PERSON values ('CP7',55,63,7,71,79,87);
+insert into CLUB_PERSON values ('CP8',56,64,8,72,80,88);
+
+insert into CLUB values ('CL1','EPL1',1,50,45,3,2,36,138,'CP1');
+insert into CLUB values ('CL2','EPL2',2,50,40,5,5,30,125,'CP2');
+insert into CLUB values ('CL3','EPL3',3,50,38,5,7,30,119,'CP3');
+insert into CLUB values ('CL4','EPL4',4,50,36,6,8,30,114,'CP4');
+insert into CLUB values ('CL5','LL1',1,50,45,3,2,36,138,'CP5');
+insert into CLUB values ('CL6','LL2',2,50,40,5,5,30,125,'CP6');
+insert into CLUB values ('CL7','LL3',3,50,38,5,7,30,119,'CP7');
+insert into CLUB values ('CL8','LL4',4,50,36,6,8,30,114,'CP8');
+
+insert into ATTACKING values('CL1',500,650,70);
+insert into ATTACKING values('CL2',480,630,75);
+insert into ATTACKING values('CL3',450,610,72);
+insert into ATTACKING values('CL4',430,615,69);
+insert into ATTACKING values('CL5',510,660,71);
+insert into ATTACKING values('CL6',470,620,74);
+insert into ATTACKING values('CL7',440,612,68);
+insert into ATTACKING values('CL8',445,605,70);
+
+insert into DEFENDING VALUES('CL1',30,110,2,130);
+insert into DEFENDING VALUES('CL2',45,105,5,110);
+insert into DEFENDING VALUES('CL3',42,102,7,115);
+insert into DEFENDING VALUES('CL4',50,100,10,105);
+insert into DEFENDING VALUES('CL5',32,110,4,132);
+insert into DEFENDING VALUES('CL6',47,105,6,112);
+insert into DEFENDING VALUES('CL7',43,102,8,110);
+insert into DEFENDING VALUES('CL8',52,100,12,108);
+
+insert into DISCIPLINARY VALUES('CL1',300,80,20);
+insert into DISCIPLINARY VALUES('CL2',330,90,25);
+insert into DISCIPLINARY VALUES('CL3',340,88,23);
+insert into DISCIPLINARY VALUES('CL4',335,75,22);
+insert into DISCIPLINARY VALUES('CL5',310,82,22);
+insert into DISCIPLINARY VALUES('CL6',332,93,26);
+insert into DISCIPLINARY VALUES('CL7',341,86,25);
+insert into DISCIPLINARY VALUES('CL8',337,79,23);
+
+
+
+insert into FIXTURES VALUES('FIX1','05/26/2015','Manchester United','Chelsea','Old Trafford');
+insert into FIXTURES VALUES('FIX2','06/10/2015','Manchester United','Manchester City','Old Trafford');
+insert into FIXTURES VALUES('FIX3','06/23/2015','Manchester United','Arsenal','Old Trafford');
+insert into FIXTURES VALUES('FIX4','05/28/2015','Chelsea','Manchester City','Stamford Bridge');
+insert into FIXTURES VALUES('FIX5','06/12/2015','Chelsea','Arsenal','Stamford Bridge');
+insert into FIXTURES VALUES('FIX6','06/25/2015','Chelsea','Manchester United','Stamford Bridge');
+insert into FIXTURES VALUES('FIX7','05/30/2015','Manchester City','Arsenal','City of Manchester');
+insert into FIXTURES VALUES('FIX8','06/15/2015','Manchester City','Manchester United','City of Manchester');
+insert into FIXTURES VALUES('FIX9','06/28/2015','Manchester City','Chelsea','City of Manchester');
+insert into FIXTURES VALUES('FIX10','06/02/2015','Arsenal','Manchester United','Emirates Stadium');
+insert into FIXTURES VALUES('FIX11','06/18/2015','Arsenal','Chelsea','Emirates Stadium');
+insert into FIXTURES VALUES('FIX12','06/30/2015','Arsenal','Manchester City','Emirates Stadium');
+
+insert into FIXTURES VALUES('FIX13','05/26/2015','Barcelona','Real Madrid','Camp Nou');
+insert into FIXTURES VALUES('FIX14','06/10/2015','Barcelona','Athletico Madrid','Camp Nou');
+insert into FIXTURES VALUES('FIX15','06/23/2015','Barcelona','Velencia FC','Camp Nou');
+insert into FIXTURES VALUES('FIX16','05/28/2015','Real Madrid','Athletico Madrid','Santiago Bernabéu');
+insert into FIXTURES VALUES('FIX17','06/12/2015','Real Madrid','Velencia FC','Santiago Bernabéu');
+insert into FIXTURES VALUES('FIX18','06/25/2015','Real Madrid','Barcelona','Santiago Bernabéu');
+insert into FIXTURES VALUES('FIX19','05/30/2015','Athletico Madrid','Velencia FC','Vicente Calderón');
+insert into FIXTURES VALUES('FIX20','06/15/2015','Athletico Madrid','Barcelona','Vicente Calderón');
+insert into FIXTURES VALUES('FIX21','06/28/2015','Athletico Madrid','Real Madrid','Vicente Calderón');
+insert into FIXTURES VALUES('FIX22','06/02/2015','Velencia FC','Barcelona','Mestalla');
+insert into FIXTURES VALUES('FIX23','06/18/2015','Velencia FC','Real Madrid','Mestalla');
+insert into FIXTURES VALUES('FIX24','06/30/2015','Velencia FC','Athletico Madrid','Mestalla');
+
+
+insert into FOOTBALL_PLAYER VALUES('FP1',9,'Forward',250,120,30,3,'13 Million');
+insert into FOOTBALL_PLAYER VALUES('FP2',10,'Forward',180,80,40,5,'7.8 Million');
+insert into FOOTBALL_PLAYER VALUES('FP3',11,'Mid Field',150,64,35,2,'5 Million');
+insert into FOOTBALL_PLAYER VALUES('FP4',12,'Defence',140,25,40,6,'2.5 Million');
+insert into FOOTBALL_PLAYER VALUES('FP5',13,'Goal Keeper',200,0,2,0,'2 Million');
+insert into FOOTBALL_PLAYER VALUES('FP6',14,'Defence',300,100,40,10,'12 Million');
+insert into FOOTBALL_PLAYER VALUES('FP7',15,'Forward',180,80,40,5,'8 Million');
+insert into FOOTBALL_PLAYER VALUES('FP8',16,'Mid Field',150,64,35,2,'5.5 Million');
+insert into FOOTBALL_PLAYER VALUES('FP9',17,'Goal Keeper',250,0,5,1,'3 Million');
+insert into FOOTBALL_PLAYER VALUES('FP10',18,'Forward',200,150,30,12,'7 Million');
+insert into FOOTBALL_PLAYER VALUES('FP11',19,'Forward',250,120,30,3,'13 Million');
+insert into FOOTBALL_PLAYER VALUES('FP12',20,'Mid Field',175,80,25,3,'10 Million');
+insert into FOOTBALL_PLAYER VALUES('FP13',21,'Forward',100,50,24,5,'5 Million');
+insert into FOOTBALL_PLAYER VALUES('FP14',22,'Defence',145,23,40,10,'3 Million');
+insert into FOOTBALL_PLAYER VALUES('FP15',23,'Goal Keeper',120,0,5,1,'2.2 Million');
+insert into FOOTBALL_PLAYER VALUES('FP16',24,'Forward',250,120,30,3,'12.5 Million');
+insert into FOOTBALL_PLAYER VALUES('FP17',25,'Forward',170,80,40,5,'7.2 Million');
+insert into FOOTBALL_PLAYER VALUES('FP18',26,'Mid Field',160,64,35,2,'5.2 Million');
+insert into FOOTBALL_PLAYER VALUES('FP19',27,'Defence',150,25,40,6,'2.3 Million');
+insert into FOOTBALL_PLAYER VALUES('FP20',28,'Goal Keeper',210,0,2,0,'4 Million');
+insert into FOOTBALL_PLAYER VALUES('FP21',29,'Forward',250,150,30,3,'15 Million');
+insert into FOOTBALL_PLAYER VALUES('FP22',30,'Forward',170,110,40,5,'20 Million');
+insert into FOOTBALL_PLAYER VALUES('FP23',31,'Mid Field',160,90,35,2,'12 Million');
+insert into FOOTBALL_PLAYER VALUES('FP24',32,'Defence',150,25,45,6,'6 Million');
+insert into FOOTBALL_PLAYER VALUES('FP25',33,'Goal Keeper',210,0,2,0,'3 Million');
+insert into FOOTBALL_PLAYER VALUES('FP26',34,'Forward',250,170,30,3,'20 Million');
+insert into FOOTBALL_PLAYER VALUES('FP27',35,'Forward',170,120,40,5,'18 Million');
+insert into FOOTBALL_PLAYER VALUES('FP28',36,'Mid Field',160,90,35,2,'25 Million');
+insert into FOOTBALL_PLAYER VALUES('FP29',37,'Defence',150,25,45,6,'15 Million');
+insert into FOOTBALL_PLAYER VALUES('FP30',38,'Goal Keeper',210,0,2,0,'10 Million');
+insert into FOOTBALL_PLAYER VALUES('FP31',39,'Forward',250,100,30,3,'10 Million');
+insert into FOOTBALL_PLAYER VALUES('FP32',40,'Forward',170,80,40,5,'8 Million');
+insert into FOOTBALL_PLAYER VALUES('FP33',41,'Mid Field',160,60,35,2,'5 Million');
+insert into FOOTBALL_PLAYER VALUES('FP34',42,'Defence',150,25,30,6,'2.4 Million');
+insert into FOOTBALL_PLAYER VALUES('FP35',43,'Goal Keeper',210,0,2,0,'3 Million');
+insert into FOOTBALL_PLAYER VALUES('FP36',44,'Forward',250,80,30,3,'10 Million');
+insert into FOOTBALL_PLAYER VALUES('FP37',45,'Forward',170,60,40,5,'7 Million');
+insert into FOOTBALL_PLAYER VALUES('FP38',46,'Mid Field',160,50,35,2,'4 Million');
+insert into FOOTBALL_PLAYER VALUES('FP39',47,'Defence',150,25,20,6,'2 Million');
+insert into FOOTBALL_PLAYER VALUES('FP40',48,'Goal Keeper',210,0,2,0,'3 Million');
+
+insert into FRANCHISE VALUES ('FR1','CL1','Aon','5 Years', '50 Million');
+insert into FRANCHISE VALUES ('FR2','CL2','Samsung','10 Years', '60 Million');
+insert into FRANCHISE VALUES ('FR3','CL3','Fly Emirates','8 Years', '45 Million');
+insert into FRANCHISE VALUES ('FR4','CL4','Ethihad Airways','4 Years', '40 Million');
+insert into FRANCHISE VALUES ('FR5','CL5','Unicef','10 Years', '80 Million');
+insert into FRANCHISE VALUES ('FR6','CL6','Fly Emirates','7 Years', '65 Million');
+insert into FRANCHISE VALUES ('FR7','CL7','Azer Baijen','5 Years', '55 Million');
+insert into FRANCHISE VALUES ('FR8','CL8','Caxia Bank','4 Years', '40 Million');
+
+insert into GOALS VALUES(null,'CL1',250,80,50);
+insert into GOALS VALUES(null,'CL2',200,90,55);
+insert into GOALS VALUES(null,'CL3',180,95,60);
+insert into GOALS VALUES(null,'CL4',160,100,65);
+insert into GOALS VALUES(null,'CL5',280,70,40);
+insert into GOALS VALUES(null,'CL6',270,80,50);
+insert into GOALS VALUES(null,'CL7',200,110,60);
+insert into GOALS VALUES(null,'CL8',170,120,65);
+
+insert into SQUAD VALUES('SQ1','CL1','FP1');
+insert into SQUAD VALUES('SQ2','CL1','FP2');
+insert into SQUAD VALUES('SQ3','CL1','FP3');
+insert into SQUAD VALUES('SQ4','CL1','FP4');
+insert into SQUAD VALUES('SQ5','CL1','FP5');
+insert into SQUAD VALUES('SQ6','CL2','FP6');
+insert into SQUAD VALUES('SQ7','CL2','FP7');
+insert into SQUAD VALUES('SQ8','CL2','FP8');
+insert into SQUAD VALUES('SQ9','CL2','FP9');
+insert into SQUAD VALUES('SQ10','CL2','FP10');
+insert into SQUAD VALUES('SQ11','CL3','FP11');
+insert into SQUAD VALUES('SQ12','CL3','FP12');
+insert into SQUAD VALUES('SQ13','CL3','FP13');
+insert into SQUAD VALUES('SQ14','CL3','FP14');
+insert into SQUAD VALUES('SQ15','CL3','FP15');
+insert into SQUAD VALUES('SQ16','CL4','FP16');
+insert into SQUAD VALUES('SQ17','CL4','FP17');
+insert into SQUAD VALUES('SQ18','CL4','FP18');
+insert into SQUAD VALUES('SQ19','CL4','FP19');
+insert into SQUAD VALUES('SQ20','CL4','FP20');
+insert into SQUAD VALUES('SQ21','CL5','FP21');
+insert into SQUAD VALUES('SQ22','CL5','FP22');
+insert into SQUAD VALUES('SQ23','CL5','FP23');
+insert into SQUAD VALUES('SQ24','CL5','FP24');
+insert into SQUAD VALUES('SQ25','CL5','FP25');
+insert into SQUAD VALUES('SQ26','CL6','FP26');
+insert into SQUAD VALUES('SQ27','CL6','FP27');
+insert into SQUAD VALUES('SQ28','CL6','FP28');
+insert into SQUAD VALUES('SQ29','CL6','FP29');
+insert into SQUAD VALUES('SQ30','CL6','FP30');
+insert into SQUAD VALUES('SQ31','CL7','FP31');
+insert into SQUAD VALUES('SQ32','CL7','FP32');
+insert into SQUAD VALUES('SQ32','CL7','FP32');
+insert into SQUAD VALUES('SQ33','CL7','FP33');
+insert into SQUAD VALUES('SQ34','CL7','FP34');
+insert into SQUAD VALUES('SQ35','CL7','FP35');
+insert into SQUAD VALUES('SQ36','CL8','FP36');
+insert into SQUAD VALUES('SQ37','CL8','FP37');
+insert into SQUAD VALUES('SQ38','CL8','FP38');
+insert into SQUAD VALUES('SQ39','CL8','FP39');
+insert into SQUAD VALUES('SQ40','CL8','FP40');
+
+insert into USER_TABLE VALUES(89,'FIX1','Manchester United','4 Goals','2 Goals');
+insert into USER_TABLE VALUES(90,'FIX4','Chelsea','5 Goals','1 Goals');
+insert into USER_TABLE VALUES(91,'FIX10','Arsenal','3 Goals','2 Goals');
+insert into USER_TABLE VALUES(92,'FIX13','Barcelona','4 Goals','3 Goals');
+insert into USER_TABLE VALUES(93,'FIX16','Real Madrid','5 Goals','0 Goals');
+
+
+
+insert into VIEW_ALL_RESULTS VALUES('RES1','L1','01/26/2015','CL1','CL2','4 - 2');
+insert into VIEW_ALL_RESULTS VALUES('RES2','L1','02/26/2015','CL1','CL3','2 - 0');
+insert into VIEW_ALL_RESULTS VALUES('RES3','L1','03/26/2015','CL1','CL4','3 - 2');
+insert into VIEW_ALL_RESULTS VALUES('RES4','L1','01/28/2015','CL2','CL1','3 - 2');
+insert into VIEW_ALL_RESULTS VALUES('RES5','L1','02/28/2015','CL2','CL3','4 - 1');
+insert into VIEW_ALL_RESULTS VALUES('RES6','L1','03/28/2015','CL2','CL4','1 - 0');
+insert into VIEW_ALL_RESULTS VALUES('RES7','L1','02/01/2015','CL3','CL1','1 - 3');
+insert into VIEW_ALL_RESULTS VALUES('RES8','L1','03/01/2015','CL3','CL2','2 - 0');
+insert into VIEW_ALL_RESULTS VALUES('RES9','L1','03/30/2015','CL3','CL4','4 - 1');
+insert into VIEW_ALL_RESULTS VALUES('RES10','L1','02/10/2015','CL4','CL1','1 - 2');
+insert into VIEW_ALL_RESULTS VALUES('RES11','L1','03/04/2015','CL4','CL2','2 - 2');
+insert into VIEW_ALL_RESULTS VALUES('RES12','L1','04/01/2015','CL4','CL3','3 - 2');
+
+insert into VIEW_ALL_RESULTS VALUES('RES13','L2','01/26/2015','CL5','CL6','4 - 2');
+insert into VIEW_ALL_RESULTS VALUES('RES14','L2','02/26/2015','CL5','CL7','2 - 0');
+insert into VIEW_ALL_RESULTS VALUES('RES15','L2','03/26/2015','CL5','CL8','3 - 2');
+insert into VIEW_ALL_RESULTS VALUES('RES16','L2','01/28/2015','CL6','CL5','3 - 2');
+insert into VIEW_ALL_RESULTS VALUES('RES17','L2','02/28/2015','CL6','CL7','4 - 1');
+insert into VIEW_ALL_RESULTS VALUES('RES18','L2','03/28/2015','CL6','CL8','1 - 0');
+insert into VIEW_ALL_RESULTS VALUES('RES19','L2','02/01/2015','CL7','CL5','1 - 3');
+insert into VIEW_ALL_RESULTS VALUES('RES20','L2','03/01/2015','CL7','CL6','2 - 0');
+insert into VIEW_ALL_RESULTS VALUES('RES21','L2','03/30/2015','CL7','CL8','4 - 1');
+insert into VIEW_ALL_RESULTS VALUES('RES22','L2','02/10/2015','CL8','CL5','1 - 2');
+insert into VIEW_ALL_RESULTS VALUES('RES23','L2','03/04/2015','CL8','CL6','2 - 2');
+insert into VIEW_ALL_RESULTS VALUES('RES24','L2','04/01/2015','CL8','CL7','3 - 2');
+
+
+
+insert into PLAYER_CLUB_HISTORY VALUES ('CL1',9,120,80,35,50,0,0);
+insert into PLAYER_CLUB_HISTORY VALUES ('CL1',10,90,50,40,30,0,0);
+insert into PLAYER_CLUB_HISTORY VALUES ('CL1',11,60,45,45,25,0,0);
+insert into PLAYER_CLUB_HISTORY VALUES ('CL1',12,70,25,28,10,0,0);
+insert into PLAYER_CLUB_HISTORY VALUES ('CL1',13,0,0,0,0,150,45);
+
+insert into PLAYER_CLUB_HISTORY VALUES ('CL2',14,110,70,25,30,0,0);
+insert into PLAYER_CLUB_HISTORY VALUES ('CL2',15,80,40,30,20,0,0);
+insert into PLAYER_CLUB_HISTORY VALUES ('CL2',16,70,35,25,15,0,0);
+insert into PLAYER_CLUB_HISTORY VALUES ('CL2',17,0,0,0,0,130,55);
+insert into PLAYER_CLUB_HISTORY VALUES ('CL2',18,80,60,25,30,0,0);
+
+insert into PLAYER_CLUB_HISTORY VALUES ('CL3',19,90,60,30,45,0,0);
+insert into PLAYER_CLUB_HISTORY VALUES ('CL3',20,80,30,20,25,0,0);
+insert into PLAYER_CLUB_HISTORY VALUES ('CL3',21,65,48,40,30,0,0);
+insert into PLAYER_CLUB_HISTORY VALUES ('CL3',22,72,28,25,15,0,0);
+insert into PLAYER_CLUB_HISTORY VALUES ('CL3',23,0,0,0,0,160,40);
+
+insert into PLAYER_CLUB_HISTORY VALUES ('CL4',24,75,50,15,30,0,0);
+insert into PLAYER_CLUB_HISTORY VALUES ('CL4',25,60,40,42,20,0,0);
+insert into PLAYER_CLUB_HISTORY VALUES ('CL4',26,65,35,25,15,0,0);
+insert into PLAYER_CLUB_HISTORY VALUES ('CL4',27,50,20,22,5,0,0);
+insert into PLAYER_CLUB_HISTORY VALUES ('CL4',28,0,0,0,0,130,60);
+
+
+
+insert into PLAYER_CLUB_HISTORY VALUES ('CL5',29,120,80,35,50,0,0);
+insert into PLAYER_CLUB_HISTORY VALUES ('CL5',30,90,50,40,30,0,0);
+insert into PLAYER_CLUB_HISTORY VALUES ('CL5',31,60,45,45,25,0,0);
+insert into PLAYER_CLUB_HISTORY VALUES ('CL5',32,70,25,28,10,0,0);
+insert into PLAYER_CLUB_HISTORY VALUES ('CL5',33,0,0,0,0,150,45);
+
+insert into PLAYER_CLUB_HISTORY VALUES ('CL6',34,110,70,25,30,0,0);
+insert into PLAYER_CLUB_HISTORY VALUES ('CL6',35,80,40,30,20,0,0);
+insert into PLAYER_CLUB_HISTORY VALUES ('CL6',36,70,35,25,15,0,0);
+insert into PLAYER_CLUB_HISTORY VALUES ('CL6',37,0,0,0,0,130,55);
+insert into PLAYER_CLUB_HISTORY VALUES ('CL6',38,80,60,25,30,0,0);
+
+insert into PLAYER_CLUB_HISTORY VALUES ('CL7',39,90,60,30,45,0,0);
+insert into PLAYER_CLUB_HISTORY VALUES ('CL7',40,80,30,20,25,0,0);
+insert into PLAYER_CLUB_HISTORY VALUES ('CL7',41,65,48,40,30,0,0);
+insert into PLAYER_CLUB_HISTORY VALUES ('CL7',42,72,28,25,15,0,0);
+insert into PLAYER_CLUB_HISTORY VALUES ('CL7',43,0,0,0,0,160,40);
+
+insert into PLAYER_CLUB_HISTORY VALUES ('CL8',44,75,50,15,30,0,0);
+insert into PLAYER_CLUB_HISTORY VALUES ('CL8',45,60,40,42,20,0,0);
+insert into PLAYER_CLUB_HISTORY VALUES ('CL8',46,65,35,25,15,0,0);
+insert into PLAYER_CLUB_HISTORY VALUES ('CL8',47,50,20,22,5,0,0);
+insert into PLAYER_CLUB_HISTORY VALUES ('CL8',48,0,0,0,0,130,60);
+
+
+View:
+
+create view TOP_GOALS_SCORED as
+select  ch.GOALS_SCORED,PERSON.FIRST_NAME,PERSON.LAST_NAME,CLUB_DIRECTORY.CLUB_NAME from PLAYER_CLUB_HISTORY ch  JOIN PERSON ON ch.PERSON_ID = PERSON.PERSON_ID JOIN CLUB ON ch.CLUB_ID = CLUB.CLUB_ID  JOIN CLUB_DIRECTORY ON CLUB.CLUB_DIRECTORY_ID = CLUB_DIRECTORY.CLUB_DIRECTORY_ID where ch.GOALS_SCORED>=35 order by ch.GOALS_SCORED;
+
+select * from TOP_GOALS_SCORED; 
+
+
+
+
+
+
+CREATE or replace TRIGGER after_transfer_insert
+AFTER INSERT ON TRANSFER
+    FOR EACH ROW 
+	BEGIN
+  update_squad(:new.FOOTBALL_PLAYER_ID,:new.NEW_TEAM);
+	END;
+
+
+
+
+DELIMITER $$
+
+CREATE or replace PROCEDURE update_squad(v_p_id IN TRANSFER.FOOTBALL_PLAYER_ID%TYPE,v_c_id IN TRANSFER.NEW_TEAM%TYPE) IS
+
+  CURSOR CUR_PID_IN IS
+	SELECT  sqd.club_id 
+	FROM SQUAD sqd
+	WHERE sqd.football_player_id = v_p_id;
+	v_clubid VARCHAR2(10);
+  BEGIN
+
+	OPEN CUR_PID_IN;
+      
+      FETCH CUR_PID_IN INTO v_clubid;
+        
+			 UPDATE SQUAD sqd
+			 SET sqd.CLUB_ID = v_c_id
+			 WHERE sqd.football_player_id = v_p_id;
+
+	 
+	 CLOSE CUR_PID_IN;
+END;
+
+insert into TRANSFER VALUES('TR1','CL4','CL1','2 Million','','15 Million','5 Years','FP16');
+
+select * from SQUAD
+
+select CLUB_NAME,GOALS_SCORED,GOALS_CONCEDED,PENALITIES FROM CLUB_DIRECTORY JOIN CLUB ON CLUB_DIRECTORY.CLUB_DIRECTORY_ID = CLUB.CLUB_DIRECTORY_ID JOIN GOALS ON CLUB.CLUB_ID=GOALS.CLUB_ID;
+
+select LEAGUE_NAME,CLUB_NAME,GOALS_SCORED,GOALS_CONCEDED,PENALITIES FROM LEAGUE JOIN CLUB_DIRECTORY ON LEAGUE.LEAGUE_ID = CLUB_DIRECTORY.LEAGUE_ID JOIN CLUB 
+ON CLUB_DIRECTORY.CLUB_DIRECTORY_ID = CLUB.CLUB_DIRECTORY_ID JOIN GOALS ON CLUB.CLUB_ID=GOALS.CLUB_ID;
+
+SELECT CLUB_DIRECTORY.CLUB_NAME,PERSON.FIRST_NAME,PERSON.LAST_NAME,FOOTBALL_PLAYER.POSITION,FOOTBALL_PLAYER.MATCHES_PLAYED,FOOTBALL_PLAYER.GOALS_SCORED,FOOTBALL_PLAYER.YELLOW_CARD_RECEIVED,FOOTBALL_PLAYER.RED_CARD_RECEIVED,FOOTBALL_PLAYER.WAGES FROM PERSON JOIN FOOTBALL_PLAYER ON 
+PERSON.PERSON_ID = FOOTBALL_PLAYER.PERSON_ID JOIN SQUAD ON FOOTBALL_PLAYER.FOOTBALL_PLAYER_ID = SQUAD.FOOTBALL_PLAYER_ID JOIN CLUB ON SQUAD.CLUB_ID=CLUB.CLUB_ID JOIN
+CLUB_DIRECTORY ON CLUB_DIRECTORY.CLUB_DIRECTORY_ID = CLUB.CLUB_DIRECTORY_ID;
+
+
+
+select CLUB_DIRECTORY.CLUB_NAME,LEAGUE.LEAGUE_NAME,ATTACKING.SHOTS,ATTACKING.CROSSES,ATTACKING.OFFSIDES FROM ATTACKING JOIN CLUB ON ATTACKING.CLUB_ID=CLUB.CLUB_ID JOIN CLUB_DIRECTORY ON
+CLUB.CLUB_DIRECTORY_ID = CLUB_DIRECTORY.CLUB_DIRECTORY_ID JOIN LEAGUE ON CLUB_DIRECTORY.LEAGUE_ID=LEAGUE.LEAGUE_ID;
+
+select CLUB_DIRECTORY.CLUB_NAME,LEAGUE.LEAGUE_NAME,DEFENDING.GOALS_CONCEDED,DEFENDING.SAVES_MADE,DEFENDING.OWN_GOALS FROM DEFENDING JOIN CLUB ON DEFENDING.CLUB_ID=CLUB.CLUB_ID JOIN CLUB_DIRECTORY ON
+CLUB.CLUB_DIRECTORY_ID = CLUB_DIRECTORY.CLUB_DIRECTORY_ID JOIN LEAGUE ON CLUB_DIRECTORY.LEAGUE_ID=LEAGUE.LEAGUE_ID
+
+CREATE DIRECTORY IMAGE_LOC AS 'D:\ADB\FinalProject\Images';
+CREATE OR REPLACE PROCEDURE IMAGE_INSERTION 
+(
+  FILE_NAME IN VARCHAR2 
+) AS
+
+img_size number;
+img_file_ptr bfile;
+img_blob blob;
+
+BEGIN
+  img_file_ptr := bfilename('IMGDIR',FILE_NAME);
+  dbms_lob.fileopen(img_file_ptr);
+  img_size := dbms_lob.getlength(img_file_ptr);
+  
+  INSERT INTO IMAGE_LOCATION Values (null,empty_blob()) returning IMAGE into img_blob;
+  dbms_lob.loadfromfile(img_blob,img_file_ptr,img_size);
+  commit;
+  dbms_lob.close(img_file_ptr);  
+END IMAGE_INSERTION;
+
+
+
+
+
+
+
+
+
+select cd.CLUB_NAME AS HOMETEAM, cd1.CLUB_NAME AS AWAYTEAM,VIEW_ALL_RESULTS.FIXTURE,VIEW_ALL_RESULTS.RESULT FROM VIEW_ALL_RESULTS JOIN CLUB c1 ON VIEW_ALL_RESULTS.HOME_TEAM = c1.CLUB_ID
+JOIN CLUB c2 ON VIEW_ALL_RESULTS.AWAY_TEAM = c2.CLUB_ID JOIN CLUB_DIRECTORY cd on c1.CLUB_DIRECTORY_ID = cd.CLUB_DIRECTORY_ID join
+CLUB_DIRECTORY cd1 on c2.CLUB_DIRECTORY_ID = cd1.CLUB_DIRECTORY_ID;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+create database sri;
+
+use sri;
+
+create table LEAGUE(LEAGUE_ID varchar(10) primary key,LEAGUE_NAME varchar(10));
+create table CLUB_DIRECTORY(CLUB_DIRECTORY_ID varchar(10) primary key,LEAGUE_ID varchar(10),foreign key (LEAGUE_ID) references LEAGUE(LEAGUE_ID));
+create table PERSON_CATEGORY(PERSON_CATEGORY_ID varchar(20) primary key,PERSON_CATEGORY varchar(50));
+create table PERSON(PERSON_ID INT primary key,PERSON_CATEGORY_ID varchar(20),foreign key (PERSON_CATEGORY_ID) references PERSON_CATEGORY(PERSON_CATEGORY_ID));
+create table CLUB_PERSON(CLUB_PERSON_ID varchar(20) primary key);
+create table CLUB(CLUB_ID varchar(20) primary key,CLUB_DIRECTORY_ID varchar(10),CLUB_PERSON_ID varchar(20),foreign key (CLUB_DIRECTORY_ID) references CLUB_DIRECTORY(CLUB_DIRECTORY_ID),
+foreign key (CLUB_PERSON_ID) references CLUB_PERSON(CLUB_PERSON_ID));
+create table ATTACKING(CLUB_ID varchar(20),foreign key (CLUB_ID) references CLUB(CLUB_ID));
+create table DEFENDING(CLUB_ID varchar(20),foreign key (CLUB_ID) references CLUB(CLUB_ID));
+create table DISCIPLINARY(CLUB_ID varchar(20),foreign key (CLUB_ID) references CLUB(CLUB_ID));
+ create table FIXTURES(FIXTURE_ID varchar(20) primary key);
+ create table FOOTBALL_PLAYER(FOOTBALL_PLAYER_ID varchar(20) primary key,PERSON_ID INT,foreign key (PERSON_ID) references PERSON(PERSON_ID));
+ create table FRANCHISE(FRANCHISE_ID varchar(10) primary key,CLUB_ID varchar(20),foreign key (CLUB_ID) references CLUB(CLUB_ID));
+ create table GOALS(ROW_ID INT primary key,CLUB_ID varchar(20),foreign key (CLUB_ID) references CLUB(CLUB_ID));
+ create table PERSON_CLUB_HISTORY(CLUB_ID varchar(20),PERSON_ID INT,foreign key (CLUB_ID) references CLUB(CLUB_ID),foreign key (PERSON_ID) references PERSON(PERSON_ID));
+ create table SQUAD(SQUAD_ID varchar(20) primary key,CLUB_ID varchar(20),FOOTBALL_PLAYER_ID varchar(20),foreign key (CLUB_ID) references CLUB(CLUB_ID),foreign key (FOOTBALL_PLAYER_ID) references FOOTBALL_PLAYER(FOOTBALL_PLAYER_ID));
+ create table TRANSFER(TRANSFER_CATEGORY_ID varchar(10) primary key,CURRENT_TEAM varchar(100),NEW_TEAM varchar(100),FOOTBALL_PLAYER_ID varchar(20),foreign key (CURRENT_TEAM) references CLUB(CLUB_ID),
+foreign key (NEW_TEAM) references CLUB(CLUB_ID),foreign key (FOOTBALL_PLAYER_ID) references FOOTBALL_PLAYER(FOOTBALL_PLAYER_ID));
+ create table TRANSFER_CATEGORY(TRANSFER_CATEGORY_ID varchar(10) primary key);
+ create table USER_TABLE(PERSON_ID INT,FIXTURE_ID varchar(20),foreign key (PERSON_ID) references PERSON(PERSON_ID),
+foreign key (FIXTURE_ID) references FIXTURES(FIXTURE_ID));
+ create table VIEW_ALL_RESULTS(RESULT_ID varchar(10) primary key,LEAGUE_ID varchar(10),HOME_TEAM varchar(75),AWAY_TEAM varchar(75),
+foreign key (LEAGUE_ID) references LEAGUE(LEAGUE_ID),foreign key (HOME_TEAM) references CLUB(CLUB_ID),foreign key (AWAY_TEAM) references CLUB(CLUB_ID));
+
+
+
+
+
+
+
+
+
+CREATE TABLE "SRI"."CLUB_DIRECTORY" 
+   (	"CLUB_DIRECTORY_ID" VARCHAR2(10 BYTE) NOT NULL ENABLE, 
+	"LEAGUE_ID" VARCHAR2(10 BYTE), 
+	"CLUB_NAME" VARCHAR2(150 BYTE), 
+	"ESTABLISHED_YEAR" NUMBER, 
+	"NICKNAME" VARCHAR2(75 BYTE), 
+	"HOME_STADIUM" VARCHAR2(200 BYTE), 
+	 CONSTRAINT "CLUB_DIRECTORY_PK" PRIMARY KEY ("CLUB_DIRECTORY_ID")
+  USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 NOLOGGING COMPUTE STATISTICS 
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "EXAMPLE"  ENABLE, 
+	 CONSTRAINT "CLUB_DIRECTORY_FK1" FOREIGN KEY ("LEAGUE_ID")
+	  REFERENCES "SRI"."LEAGUE" ("LEAGUE_ID") ENABLE
+   ) SEGMENT CREATION IMMEDIATE 
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   CREATE USER 'admin1'@'localhost' IDENTIFIED BY 'admin1';
+
+create user newadmin identified by newadmin;
+grant connect to newadmin;
+grant all privileges on to newadmin identified by newadmin;
+GRANT ALL PRIVILEGES ON *.* TO admin;
+drop role admin;
+
+show user;
+
+
+create role admin;
+grant all on PERSON to newadmin;
+  drop role admin;  
+  show user;
+select * from goals;
